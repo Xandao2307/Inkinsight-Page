@@ -30,6 +30,29 @@
     height: 85vh;
 }
 
+#menu-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vw;
+    margin-left: 2vw;
+}
+
+.text-menu{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-menu:hover{
+    color: #2E3E4B;
+    cursor: pointer;
+}
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
 #text-section{
     color: #2E3E4B;
     margin-top: 40px;
